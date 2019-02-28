@@ -1,0 +1,70 @@
+﻿Algoritma & Pseudocode
+
+1. Newton Second Law
+	Rumus : EF = m * a
+	→ Algoritma :
+    • untuk mencari percepatan benda (EF), rumusya adalah ‘m’ yang akan dikali dengan ‘a’
+    • jika ‘m’ dan ‘a’ sudah memilik nilai angka maka kalikan angka dari ‘m’ dan angka ‘a’
+    • maka akan didapatkanlah angka yang akan mengisi ‘EF’
+
+	→ Pseudocode :
+    • STORE ‘m’ with 600 (kg)
+    • STORE  ‘a’ with 2 (m/s2)
+    • STORE ‘ef’ with any value
+    • CALCULATE ‘m’ multiplication with ‘a’
+    • SET ‘ef’ value with calculation result
+    • DISPLAY ‘ef’
+
+2. Tentukan Tahun Kabisat
+	→ Algoritma: 
+    • tahun kabisat merupakan tahun yang hanya terjadi 1 kali dalam periode 4 tahun
+    • dalam menentukan tahun kabisat, kita bisa menghitung dengan melihat kriterianya
+    • pertama: tahun akan habis dibagi 4 dan tidak habis dibagi dengan 100
+    • jika iya, maka tahun tersebut adalah tahun kabisat
+    • atau jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400, ama tahu tersebut juga merupakan tahun kabisat
+
+	→ Pseudocode :
+    • STORE ‘tahun’ to any number
+    • IF ‘tahun’ modulus 4 equals to 0 and ‘tahun’ modulus 100 not equal to 0
+          THEN
+          DISPLAY ‘tahun kabisat’
+    • ELSE IF ‘tahun’ modulus 4 equals to 0 and ‘tahun’ modulus 100 equal to 0 and ‘tahun’ modulus 400 equal to 0
+          DISPLAY ‘tahun’ modulus 4 equals to 0 and
+    • ELSE 
+          DISPLAY ‘bukan tahun kabisat’ 
+3. Laundry Day
+	→ Algoritma:
+    • ketika pakaian yang dimasukkan ke mesin cuci kurang dari 20, maka mesin cuci tidak dapat dinyalakan
+    • maka tambahkan 1 baju kedalam mesin cuci, lalu cek apakah pakaian sudah 20
+    • jika belum, ulang langkah diatas lagi
+    • jika baju sudah 20 maka mesin cuci akan menyala
+
+	→ Pseudocode :
+    • STORE’pakaian’ into ‘mesinCuci’ equal 0
+    • WHILE ‘pakaian’ less than 20
+    • ADD ‘pakaian’ by 1
+          IF ‘pakaian’ equal to 20
+          THEN
+              DISPLAY ‘nyalakan mesin cuci’
+          ELSE 
+              BACK to WHILE
+
+4. Periksa Kuku
+	→ Algoritma:
+    • guru akan berkeliling ke setiap siswa satu per satu
+    • jika guru menemukan kuku soswa yang panjang, maka siswa akan dihukum
+    • lalu guru akan mengecek ke siswa selanjutnya
+    • jika guru menemukan kuku siswa tidak panjang, maka siswa akan dipuji
+    • guru akan terus mengecek keseluruhan 40 siswanya
+
+	→Pseudocode :
+    • STORE ‘siswa’ with 40
+    • WHILE ‘siswa’ less than 40
+    • ADD ‘siswa’ by 1
+          IF ‘siswa’ equal ‘kukuPanjang’
+          THEN 
+              DISPLAY ‘siswa dihukum’
+          ELSE
+              DISPLAY ‘dipuji’
+          BACK to WHILE
+			

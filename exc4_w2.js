@@ -1,4 +1,4 @@
-var tanggal = 1
+var tanggal = 31
 var bulan = 2
 var tahun = 2017
 
@@ -43,5 +43,11 @@ switch (bulan) {
         bulan = ' Input Bulan Tidak Tersedia '
         break}
 }
+if (tahun < 1900 || tahun > 2200 ){
+    tahun = 'Input Tahun Tidak Tersedia'
+}
 
+if (tanggal < 0 || tanggal > 31) {
+    tanggal = 'Input tanggal tidak tersedia'
+}
 console.log (tanggal + bulan + tahun)
